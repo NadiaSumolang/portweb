@@ -4,7 +4,7 @@
 
     <!-- Project 1 -->
     <div class="project-card">
-      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Toko Buku" class="project-image">
+    <img src="{{ asset('images/fp.png') }}" alt="Flappy Bird" class="project-image">
       <div class="project-info">
         <h3 class="project-title">Flappy Bird</h3>
         <p class="project-desc">Game clone sederhana Flappy Bird dibuat dengan HTML, CSS, dan JavaScript, menghadirkan gameplay yang ringan dan menyenangkan.</p>
@@ -21,7 +21,7 @@
 
     <!-- Project 2 -->
     <div class="project-card">
-      <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80" alt="Todo App" class="project-image">
+    <img src="{{ asset('images/kozy.png') }}" alt="Kozy" class="project-image">
       <div class="project-info">
         <h3 class="project-title">Kozy</h3>
         <p class="project-desc">Web manajemen kosan digital yang memudahkan pengelolaan data penyewa dan kamar.</p>
@@ -38,7 +38,7 @@
 
     <!-- Project 3 -->
     <div class="project-card">
-      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="BMI Calculator" class="project-image">
+    <img src="{{ asset('images/blogs.png') }}" alt="blogs" class="project-image">
       <div class="project-info">
         <h3 class="project-title">Blog Sederhana</h3>
         <p class="project-desc">Website blog sederhana yang dirancang menggunakan HTML dan CSS, berisi artikel, kutipan inspiratif, informasi penulis, dan kontak.</p>
@@ -55,7 +55,7 @@
 
     <!-- Project 4 -->
     <div class="project-card">
-      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Template" class="project-image">
+    <img src="{{ asset('images/momento.png') }}" alt="momento" class="project-image">
       <div class="project-info">
         <h3 class="project-title">Momento</h3>
         <p class="project-desc">Website galeri foto dengan cerita di balik setiap foto, menampilkan koleksi gambar secara rapi dan menarik.</p>
